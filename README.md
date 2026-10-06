@@ -2,6 +2,9 @@
 
 도로교통법 PDF를 FAISS 벡터DB에 넣고, 질문을 던져 검색 결과가 어떻게 나오는지 확인한 실습입니다.
 
+- 구상부터 시행착오까지의 과정: [docs/PROCESS.md](docs/PROCESS.md)
+- 제출용 보고서: [보고서_FAISS_벡터DB_파일검색.pdf](보고서_FAISS_벡터DB_파일검색.pdf)
+
 ## 1. 개요
 
 | 항목 | 내용 |
@@ -89,6 +92,8 @@ faiss-vectordb-file-search-test/
 ├─ search.py                 저장된 인덱스로 검색 (Searcher 클래스)
 ├─ run_experiments.py        질문 10개 검색, 정답 순위 계산
 ├─ results.md                실험 결과 (질문별 top-3 원문)
+├─ 보고서_FAISS_벡터DB_파일검색.pdf   제출용 보고서
+├─ docs/PROCESS.md           구상 → 사전 실험 → 설계 → 구현 → 평가 → 재검토 기록
 └─ index/
    ├─ road_traffic.faiss     FAISS 인덱스 (944 x 768)
    └─ chunks.json            각 벡터의 원문, 조문 번호, 쪽 번호
