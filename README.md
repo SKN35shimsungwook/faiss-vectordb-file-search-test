@@ -5,6 +5,8 @@
 - 구상부터 시행착오까지의 과정: [docs/PROCESS.md](docs/PROCESS.md)
 - 제출용 보고서: [보고서_FAISS_벡터DB_파일검색.pdf](보고서_FAISS_벡터DB_파일검색.pdf)
 
+![검색 결과 요약: 질문 10개 중 8개는 정답 조문이 1위, 10개 모두 3위 안](docs/result_summary.png)
+
 ## 1. 개요
 
 | 항목 | 내용 |
